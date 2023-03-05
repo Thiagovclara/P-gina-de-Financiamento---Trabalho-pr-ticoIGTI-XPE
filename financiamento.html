@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financiamento</title>
+    <link rel="stylesheet" href="financiamento.css" />
+  </head>
+  <body>
+    <div id="container0">
+      <h2>Simulação de financiamento</h2>
+
+      <div id="container1">
+        <table>
+          <thead>
+            <tr>
+              <th><label id="valor" for="Valor"> Valor: </label></th>
+              <th>
+                <label id="prazoAnos" for="prazoAnos"> Prazo (anos): </label>
+              </th>
+              <th>
+                <label id="juros" Anos for="jurosAnos"> Juros ao ano: </label>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><input id="Valor" type="number" /></td>
+              <td><input id="prazoAnos" type="number" /></td>
+              <td><input id="jurosAnos" type="number" /></td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  id="botao"
+                  type="button"
+                  style="color: rgb(206, 104, 104)"
+                  value="Simular"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="container2">
+        <h2>Resultado</h2>
+
+        <table id="tabelaResult">
+          <thead id="tituloResultado">
+            <tr>
+              <th>Prazo (meses)</th>
+              <th>Juros ao mês:</th>
+              <th>Juros acumulados:</th>
+            </tr>
+          </thead>
+
+          <tbody id="resultado">
+            <tr>
+              <td id="prazoMeses"></td>
+              <td id="jurosMes"></td>
+              <td id="jurosAcum"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="tabela2"></div>
+    </div>
+    <script src="financiamento.js"></script>
+  </body>
+</html>

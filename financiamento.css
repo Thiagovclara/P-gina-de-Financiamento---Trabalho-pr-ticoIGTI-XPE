@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(227, 243, 244);
+}
+
+#container1 table {
+  text-align: auto;
+  margin: auto;
+}
+
+#container1 > #botao {
+  background-color: blue;
+  text-align: left;
+}
+
+#container0 {
+  background-color: white;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  overflow: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2 ~ #tabelaResult {
+  margin: auto;
+}
+
+#resultado {
+  text-align: center;
+  margin: auto;
+}
+
+div #tabelaCria1 {
+  text-align: center;
+  margin: auto;
+}
+
+
